@@ -72,6 +72,109 @@ body header .about-p {
   line-height: 28px; /* 155.556% */
   margin-top: 170px;
 }
+body .meet {
+  width: 1440px;
+  height: 1002px;
+  flex-shrink: 0;
+  background: #004047;
+  position: absolute;
+}
+body .meet .meet-h3 {
+  width: 920px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin-top: 140px;
+  margin-left: 260px;
+}
+body .meet .meet-main {
+  display: flex;
+  gap: 30px;
+  margin-left: 165px;
+  margin-top: 70px;
+}
+body .meet .meet-division {
+  width: 350px;
+  height: 253px;
+  flex-shrink: 0;
+  background: #012f34;
+}
+body .meet .meet-division__img {
+  margin-left: 127px;
+  margin-top: 30px;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  border: 2px solid #c4fffe;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+body .meet .meet-division__p {
+  width: 302px;
+  color: #79c8c7;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  margin-left: 24px;
+}
+body .meet .meet-division__pa {
+  width: 302px;
+  margin-left: 24px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px; /* 166.667% */
+}
+body .meet .division-position {
+  position: absolute;
+  left: 307px;
+}
+body .meet .division-position__b {
+  position: absolute;
+  left: 687px;
+}
+body .meet .division-position__i {
+  position: absolute;
+  left: 1077px;
+}
+body .cleint {
+  width: 1440px;
+  height: 437px;
+  flex-shrink: 0;
+  background: #012f34;
+  position: absolute;
+  margin-top: 1002px;
+}
+body .cleint .cleint__h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  width: 920px;
+  margin-top: 140px;
+  margin-left: 260px;
+}
+body .cleint .father {
+  display: flex;
+  gap: 80px;
+  background-color: #012f34;
+}
+body .cleint .bitmap {
+  margin-left: 100px;
+  margin-top: 70px;
+}
 body .intro {
   width: 1440px;
   height: 200px;
@@ -79,6 +182,7 @@ body .intro {
   background: #f67e7e;
   position: absolute;
   display: flex;
+  margin-top: 1439px;
 }
 body .intro .into-img {
   width: 200px;
@@ -118,6 +222,7 @@ body footer {
   width: 1440px;
   height: 196px;
   flex-shrink: 0;
+  margin-top: 1639px;
 }
 body footer .logo-footer {
   width: 160px;

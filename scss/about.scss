@@ -79,6 +79,124 @@ body {
       margin-top: 170px;
     }
   }
+
+  .meet {
+    width: 1440px;
+    height: 1002px;
+    flex-shrink: 0;
+    background: #004047;
+    position: absolute;
+
+    .meet-h3 {
+      width: 920px;
+      color: #fff;
+      text-align: center;
+      font-family: Livvic;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* 100% */
+      margin-top: 140px;
+      margin-left: 260px;
+    }
+
+    .meet-main {
+      display: flex;
+      gap: 30px;
+      margin-left: 165px;
+      margin-top: 70px;
+    }
+
+    .meet-division {
+      width: 350px;
+      height: 253px;
+      flex-shrink: 0;
+      background: #012f34;
+    }
+
+    .meet-division__img {
+      margin-left: 127px;
+      margin-top: 30px;
+      width: 96px;
+      height: 96px;
+      border-radius: 96px;
+      border: 2px solid #c4fffe;
+      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+
+    .meet-division__p {
+      width: 302px;
+      color: #79c8c7;
+      text-align: center;
+      font-family: Livvic;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 155.556% */
+      margin-left: 24px;
+    }
+
+    .meet-division__pa {
+      width: 302px;
+      margin-left: 24px;
+      color: #fff;
+      text-align: center;
+      font-family: Livvic;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: 25px; /* 166.667% */
+    }
+
+    .division-position {
+      position: absolute;
+      left: 307px;
+    }
+
+    .division-position__b {
+      position: absolute;
+      left: 687px;
+    }
+
+    .division-position__i {
+      position: absolute;
+      left: 1077px;
+    }
+  }
+
+  .cleint {
+    width: 1440px;
+    height: 437px;
+    flex-shrink: 0;
+    background: #012f34;
+    position: absolute;
+    margin-top: 1002px;
+
+    .cleint__h3 {
+      color: #fff;
+      text-align: center;
+      font-family: Livvic;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* 100% */
+      width: 920px;
+      margin-top: 140px;
+      margin-left: 260px;
+    }
+
+    .father {
+      display: flex;
+      gap: 80px;
+      background-color: #012f34;
+    }
+
+    .bitmap {
+      margin-left: 100px;
+      margin-top: 70px;
+    }
+  }
+
   .intro {
     width: 1440px;
     height: 200px;
@@ -86,6 +204,7 @@ body {
     background: #f67e7e;
     position: absolute;
     display: flex;
+    margin-top: 1439px;
 
     .into-img {
       width: 200px;
@@ -129,6 +248,7 @@ body {
     width: 1440px;
     height: 196px;
     flex-shrink: 0;
+    margin-top: 1639px;
 
     .logo-footer {
       width: 160px;
@@ -193,3 +313,5 @@ body {
     }
   }
 }
+
+
